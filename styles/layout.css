@@ -2,13 +2,24 @@
   box-sizing: border-box;
 }
 .profile {
-  max-width: 90%;
+  display: block;
+  max-width: 100%;
   max-height: auto;
+  margin: 0;
 }
 
-ul {
+.contacts {
+  float:right;
+  padding: 0.6em;
+  font-weight: bold;
+}
+
+ul li {
   list-style: none;
   padding: 0px;
+  display: inline; 
+  margin: 0 0.5em;
+  font-size: 1.2em;
 }
 
 hr {
@@ -42,4 +53,7 @@ a.github-link:hover {
 .github-img {
   max-width: 100%
 }
-
+/* 
+.title-name {
+  float:left;
+} */
