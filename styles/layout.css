@@ -33,7 +33,6 @@ hr {
 }
 
 a.github-link {
-  /* background: red; */
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -53,7 +52,3 @@ a.github-link:hover {
 .github-img {
   max-width: 100%
 }
-/* 
-.title-name {
-  float:left;
-} */
